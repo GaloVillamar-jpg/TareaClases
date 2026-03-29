@@ -11,6 +11,8 @@ package ec.edu.espoch.tareaclases;
 public class TareaClases {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        System.out.println("################################################ ");
+        System.out.println("# Tarea sobre las clases, atributos y metodos. # ");
+        System.out.println("################################################ ");
     }
 }

@@ -9,5 +9,22 @@ package ec.edu.espoch.tareaclases;
  * @author GALO VILLAMAR
  */
 public class Medicamentos {
-    
+
+    // Estos son atributos
+    public int idMedicamento;
+    public String nombreMedicamento;
+    public int disponible;
+
+    // Estos son metodos
+    public boolean hayStock(int cantidad) {
+        return disponible >= cantidad;
+    }
+
+    public boolean reducirStock(int cantidad) {
+        if (disponible >= cantidad) {
+            disponible -= cantidad;
+            return true;
+        }
+        return false;
+    }
 }

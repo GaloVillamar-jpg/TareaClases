@@ -8,6 +8,27 @@ package ec.edu.espoch.tareaclases;
  *
  * @author GALO VILLAMAR
  */
-public class Examenlaboratorio {
-    
+public class ExamenLaboratorio {
+
+    // Estos son atributos
+    public int idExamen;
+    public int idPaciente;
+    public String tipoExamen;
+    public boolean muestra;
+    public String resultado;
+    public boolean terminado;
+
+    // Estos son metodos
+    public boolean procesarExamen() {
+        terminado = true;
+        return true;
+    }
+
+    public void subirResultado(String resultado) {
+        this.resultado = resultado;
+    }
+
+    public boolean estaListo() {
+        return terminado;
+    }
 }
