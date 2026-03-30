@@ -9,20 +9,14 @@ package ec.edu.espoch.tareaclases;
  * @author GALO VILLAMAR
  */
 public class Receta {
+    public int idreceta;
+    public int idpaciente;
+    public int idmedico;
+    public int idmedicamento;
 
-    // Estos son atributos
-    public int idReceta;
-    public int idPaciente;
-    public int idMedico;
-    public int idMedicamento;
-    public String dosis;
-
-    // Estos son metodos
-    public boolean esValida() {
-        return true;
+    public void esvalida() {
     }
 
-    public void generarReceta() {
-        System.out.println("Receta generada");
+    public void generarreceta() {
     }
 }

@@ -9,23 +9,17 @@ package ec.edu.espoch.tareaclases;
  * @author GALO VILLAMAR
  */
 public class Medico {
-
-    // Estos son atributos
-    public int idMedico;
-    public String nombreMedico;
+    public int idmedico;
+    public String nombremedico;
     public String especialidad;
     public boolean desocupado;
 
-    // Estos son metodos
-    public void revisarPaciente(int idPaciente) {
-        System.out.println("Revisando paciente");
+    public void revisarpaciente(int idpaciente) {
     }
 
-    public void tratamiento(int idPaciente) {
-        System.out.println("Tratamiento aplicado");
+    public void tratamiento(int idpaciente) {
     }
 
-    public void examenLaboratorio(int idPaciente) {
-        System.out.println("Examen solicitado");
+    public void examenlaboratorio(int idpaciente) {
     }
 }

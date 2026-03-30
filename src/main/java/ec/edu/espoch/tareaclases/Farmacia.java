@@ -9,20 +9,13 @@ package ec.edu.espoch.tareaclases;
  * @author GALO VILLAMAR
  */
 public class Farmacia {
-
-    // Estos son atributos
-    public int idFarmacia;
-    public String medicamento;
+    public int idfarmacia;
+    public String nombrefarmacia;
     public String receta;
 
-    // Estos son metodos
-    public boolean entregarMedicamento(int idReceta) {
-        System.out.println("Medicamento entregado");
-        return true;
+    public void entregarmedicamento(int idreceta) {
     }
 
-    public boolean procesarReceta(int idReceta) {
-        System.out.println("Receta procesada");
-        return true;
+    public void procesarreceta(int idreceta) {
     }
 }

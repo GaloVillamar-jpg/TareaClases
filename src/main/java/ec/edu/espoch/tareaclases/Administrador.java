@@ -9,17 +9,12 @@ package ec.edu.espoch.tareaclases;
  * @author GALO VILLAMAR
  */
 public class Administrador {
+    public int idadmin;
+    public String nombreadmin;
 
-    // Estos son atributos
-    public int idAdmin;
-    public String nombreAdmin;
-
-    // estos son metodos
-    public void generarInforme() {
-        System.out.println("Generando informe...");
+    public void generarinforme(String localdatos) {
     }
 
-    public boolean validarTransacciones() {
-        return true;
+    public void validartransacciones() {
     }
 }

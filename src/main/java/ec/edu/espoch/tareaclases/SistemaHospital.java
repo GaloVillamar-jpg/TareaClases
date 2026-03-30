@@ -9,35 +9,17 @@ package ec.edu.espoch.tareaclases;
  * @author GALO VILLAMAR
  */
 public class SistemaHospital {
+    public String pacientes;
+    public String medicos;
+    public String citas;
+    public String examenes;
 
-    // Estos son atributos
-    public Paciente[] pacientes;
-    public Medico[] medicos;
-    public Cita[] citas;
-    public ExamenLaboratorio[] examenes;
-
-    // Estos son metodos
-    public Paciente obtenerPaciente(int idPaciente) {
-
-        for (Paciente paciente : pacientes) {
-            if (paciente != null && paciente.idPaciente == idPaciente) {
-                return paciente;
-            }
-        }
-        return null;
+    public void obtenerpaciente(int idpaciente) {
     }
 
-    public Medico obtenerMedico(int idMedico) {
-
-        for (Medico medico : medicos) {
-            if (medico != null && medico.idMedico == idMedico) {
-                return medico;
-            }
-        }
-        return null;
+    public void obtenermedico(int idmedico) {
     }
 
-    public void registrarTransaccion(String transaccion) {
-        System.out.println("Transacción: " + transaccion);
+    public void registrartransaccion(int transaccion) {
     }
 }

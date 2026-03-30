@@ -9,26 +9,17 @@ package ec.edu.espoch.tareaclases;
  * @author GALO VILLAMAR
  */
 public class Paciente {
-
-    // Estos son atributos
-    public int idPaciente;
-    public String nombrePaciente;
-    public int fechaNacimiento;
-    public String historialMedico;
+    public int idpaciente;
+    public String nombrepaciente;
     public String salud;
     public String alergia;
-    public boolean seguroActivo;
 
-    // Estos son metodos
     public void registrarse() {
-        System.out.println("Paciente registrado");
     }
 
-    public boolean alergias(String medicamento) {
-        return alergia.contains(medicamento);
+    public void alergias(String medicamento) {
     }
 
-    public void estado(String nuevoEstado) {
-        salud = nuevoEstado;
+    public void estado(String nuevoestado) {
     }
 }

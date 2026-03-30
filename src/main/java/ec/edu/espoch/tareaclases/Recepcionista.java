@@ -9,21 +9,15 @@ package ec.edu.espoch.tareaclases;
  * @author GALO VILLAMAR
  */
 public class Recepcionista {
-
-    // Estos son atrubutos
-    public String idRecepcionista;
+    public String idrecepcionista;
     public String nombre;
 
-    // Estos son metodos
-    public void registrarPaciente(String paciente) {
-        System.out.println("Paciente registrado: " + paciente);
+    public void registrarpaciente(String paciente) {
     }
 
-    public void hacerCita(int idPaciente, int idMedico) {
-        System.out.println("Cita creada");
+    public void hacercita(int idpaciente, int idmedico) {
     }
 
-    public void seguroPaciente(int idPaciente) {
-        System.out.println("Verificando seguro");
+    public void seguropaciente(int idpaciente) {
     }
 }

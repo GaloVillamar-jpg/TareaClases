@@ -9,25 +9,17 @@ package ec.edu.espoch.tareaclases;
  * @author GALO VILLAMAR
  */
 public class Cita {
+    public int idcita;
+    public int idpaciente;
+    public int idmedico;
+    public boolean citaconfirmada;
 
-    // Estos son atributos
-    public int idCita;
-    public int idPaciente;
-    public int idMedico;
-    public boolean citaConfirmada;
-
-    // Estos son metodos
-    public void confirmarCita() {
-        citaConfirmada = true;
-        System.out.println("Cita confirmada");
+    public void citaconfirmada() {
     }
 
-    public void cancelarCita() {
-        citaConfirmada = false;
-        System.out.println("Cita cancelada");
+    public void cancelarcita() {
     }
 
-    public boolean medicoDisponible(int idMedico) {
-        return true; // simplificado
+    public void medicodisponible(int idmedico) {
     }
 }
